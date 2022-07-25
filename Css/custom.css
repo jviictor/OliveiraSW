@@ -102,3 +102,48 @@ body{
   }
 
 }
+
+.top{
+  color: #fff;
+  display: flex;
+  background: url("../images/imagem.jpg")no-repeat center;
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family:'Ubunto', sans-serif;
+}
+
+.top .max-width{
+  width: 100%;
+  display: flex;
+}
+.top .top-content .text-1{
+  font-size: 25px;
+}
+.top .top-content .text-2{
+  font-size: 55px;
+  font-weight: 400;
+  margin-left: -3px;
+}
+.top .top-content .text-3{
+  font-size: 32px;
+  margin: 5px 0;
+}
+.top .top-content a{
+  display: inline-block;
+  background-color: #b02ab7;
+  color: #fff;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  font-weight: 300;
+  border-radius: 6px;
+  border: 2px solid #0c0f16;
+  transition: all 0.3s ease;
+}
+
+.top .top-content a:hover{
+  color: #0c0f16;
+  background: none;
+}
